@@ -1,0 +1,40 @@
+{
+  "name": "vrchat-auth-token-checker",
+  "version": "0.1.0",
+  "description": "A simple VRChat authentication token checker",
+  "type": "module",
+  "main": "dist/main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sawa-zen/vrchat-auth-token-checker.git"
+  },
+  "homepage": "https://github.com/sawa-zen/vrchat-auth-token-checker#readme",
+  "bugs": {
+    "url": "https://github.com/sawa-zen/vrchat-auth-token-checker/issues"
+  },
+  "keywords": [
+    "vrchat"
+  ],
+  "author": "sawa-zen",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/main.js",
+    "dev": "tsc -w",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "readline": "^1.3.0",
+    "vrchat": "^1.19.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.22.0",
+    "@types/node": "^18.15.11",
+    "eslint": "^9.22.0",
+    "typescript": "^5.8.2",
+    "typescript-eslint": "^8.26.1"
+  }
+}
