@@ -1,5 +1,7 @@
 # vrchat-auth-token-checker
 
+[![npm version](https://badge.fury.io/js/vrchat-auth-token-checker.svg)](https://badge.fury.io/js/vrchat-auth-token-checker)
+
 A CLI tool for easily obtaining VRChat API tokens. Since VRChat doesn't provide a direct way to issue API tokens, this tool helps you retrieve the token that is generated during login.
 
 ![](./screenshot.png)
