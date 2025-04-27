@@ -1,6 +1,6 @@
 {
   "name": "vrchat-auth-token-checker",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A simple VRChat authentication token checker",
   "type": "module",
   "main": "dist/main.js",
