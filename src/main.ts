@@ -43,7 +43,7 @@ const main = async () => {
 
     const vrchatConfiguration = new Configuration({ username, password })
     const axiosInstance = axios.create({
-      headers: { 'User-Agent': `vrc-token-grabber/0.1.0 ${username}` },
+      headers: { 'User-Agent': `vrc-auth-token-checker/0.1.4 ${username}` },
     })
 
     const api = new AuthenticationApi(vrchatConfiguration, undefined, axiosInstance)
