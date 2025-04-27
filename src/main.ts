@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import readline from 'readline'
 import { AuthenticationApi, Configuration, type CurrentUser as BaseCurrentUser } from 'vrchat'
 import axios from 'axios'

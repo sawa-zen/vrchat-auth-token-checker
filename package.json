@@ -1,9 +1,11 @@
 {
   "name": "vrchat-auth-token-checker",
-  "version": "0.1.1",
+  "version": "0.1.3",
   "description": "A simple VRChat authentication token checker",
   "type": "module",
   "main": "dist/main.js",
+  "types": "dist/main.d.ts",
+  "private": false,
   "bin": {
     "vrchat-auth-token-checker": "./dist/main.js"
   },
@@ -30,7 +32,8 @@
     "build": "tsc",
     "start": "node dist/main.js",
     "dev": "tsc -w",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "prepublishOnly": "npm run build"
   },
   "dependencies": {
     "readline": "^1.3.0",
