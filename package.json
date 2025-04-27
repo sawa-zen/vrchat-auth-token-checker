@@ -4,6 +4,12 @@
   "description": "A simple VRChat authentication token checker",
   "type": "module",
   "main": "dist/main.js",
+  "bin": {
+    "vrchat-auth-token-checker": "./dist/main.js"
+  },
+  "files": [
+    "dist"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sawa-zen/vrchat-auth-token-checker.git"
